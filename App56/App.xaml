@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="App56.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App56"
+    RequestedTheme="Dark">
+  <Application.Resources>
+      <local:DeviceKindImageConverter
+        x:Key="deviceImageConverter" />
+    <local:ConnectionTypeConverter
+      x:Key="cxnTypeConverter" />
+  </Application.Resources>
+</Application>
